@@ -21,16 +21,16 @@
   <header class="header">
     <div class="container header-container">
       <div class="header-top">
-        <a href="" class="logo">
+        <a href="https://taviking.ru/ehya/" class="logo">
           <img src="img/Logo.svg" alt="Logo: Ehya" class="logo__img">
         </a>
         <nav class="header-menu">
-          <ul class="header-menu__list">
+          <ul class="header-menu__list header-menu__list--mobile">
             <li class="header-menu__item"><a href="#recommended" class="header-menu__link">Рекомендации</a></li>
             <li class="header-menu__item"><a href="#unreleased" class="header-menu__link">Книги</a></li>
             <li class="header-menu__item"><a href="#blog" class="header-menu__link">Блог</a></li>
           </ul>
-          <button class="header-menu__button button button--clen">Получить</button>
+          <button data-toggle="modal" class="header-menu__button button button--clen">Получить</button>
         </nav>
         <div class="header-burger">
           <span class="header-burger__line"></span>
@@ -55,7 +55,7 @@
             крупных клиентов. Теперь
             я&nbsp;делюсь своими золотыми стратегиями ценообразования на&nbsp;творческую работу.</p>
           <div class="hero-button">
-            <button class="hero-button__buy button button--full">Купить сейчас</button>
+            <button data-toggle="modal" class="hero-button__buy button button--full">Купить сейчас</button>
             <button class="hero-button__read button button--clen">Читать демо</button>
           </div>
           <!-- /.hero-button -->
@@ -87,7 +87,8 @@
                 <h3 class="recommended-card__title">The World of Abstract Art</h3>
                 <span class="recommended-card__category">Art & Design</span>
                 <span class="recommended-card__price">$25.00</span>
-                <div class="recommended-card__wrapper"><button class="recommended-card__button">Купить</button>
+                <div class="recommended-card__wrapper">
+                  <button data-toggle="modal" class="recommended-card__button">Купить</button>
                   <button class="recommended-card__heart">
                     <svg class="recommended-card__heart-img" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -110,7 +111,8 @@
                 <h3 class="recommended-card__title">Educated : a&nbsp;Memoir</h3>
                 <span class="recommended-card__category">Education</span>
                 <span class="recommended-card__price">$28.00</span>
-                <div class="recommended-card__wrapper"><button class="recommended-card__button">Купить</button>
+                <div class="recommended-card__wrapper"><button data-toggle="modal"
+                    class="recommended-card__button">Купить</button>
                   <button class="recommended-card__heart">
                     <svg class="recommended-card__heart-img" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -133,7 +135,8 @@
                 <h3 class="recommended-card__title">The Blue Flowers Ray…</h3>
                 <span class="recommended-card__category">Novel</span>
                 <span class="recommended-card__price">$19.50</span>
-                <div class="recommended-card__wrapper"><button class="recommended-card__button">Купить</button>
+                <div class="recommended-card__wrapper"><button data-toggle="modal"
+                    class="recommended-card__button">Купить</button>
                   <button class="recommended-card__heart">
                     <svg class="recommended-card__heart-img" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -156,7 +159,8 @@
                 <h3 class="recommended-card__title">There There : a&nbsp;Novel by TO</h3>
                 <span class="recommended-card__category">Novel</span>
                 <span class="recommended-card__price">$20.00</span>
-                <div class="recommended-card__wrapper"><button class="recommended-card__button">Купить</button>
+                <div class="recommended-card__wrapper"><button data-toggle="modal"
+                    class="recommended-card__button">Купить</button>
                   <button class="recommended-card__heart">
                     <svg class="recommended-card__heart-img" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -179,7 +183,8 @@
                 <h3 class="recommended-card__title">WMNDFL : The&nbsp;Inspiration</h3>
                 <span class="recommended-card__category">Business</span>
                 <span class="recommended-card__price">$23.00</span>
-                <div class="recommended-card__wrapper"><button class="recommended-card__button">Купить</button>
+                <div class="recommended-card__wrapper"><button data-toggle="modal"
+                    class="recommended-card__button">Купить</button>
                   <button class="recommended-card__heart">
                     <svg class="recommended-card__heart-img" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -202,7 +207,8 @@
                 <h3 class="recommended-card__title">Making Things&nbsp;Happen</h3>
                 <span class="recommended-card__category">Motivation</span>
                 <span class="recommended-card__price">$23.00</span>
-                <div class="recommended-card__wrapper"><button class="recommended-card__button">Купить</button>
+                <div class="recommended-card__wrapper"><button data-toggle="modal"
+                    class="recommended-card__button">Купить</button>
                   <button class="recommended-card__heart">
                     <svg class="recommended-card__heart-img" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -233,7 +239,7 @@
               <div class="rating-card__text">
                 <h3 class="rating-card__title">Sprint : Solve, Test&nbsp;in 5 Days</h3>
                 <span class="rating-card__price">$23.00</span>
-                <button class="rating-card__button">Купить</button>
+                <button data-toggle="modal" class="rating-card__button">Купить</button>
               </div>
               <!-- /.rating-card__text -->
             </div>
@@ -246,7 +252,7 @@
               <div class="rating-card__text">
                 <h3 class="rating-card__title">Hacking&nbsp;Growth Break Problem</h3>
                 <span class="rating-card__price">$23.00</span>
-                <button class="rating-card__button">Купить</button>
+                <button data-toggle="modal" class="rating-card__button">Купить</button>
               </div>
               <!-- /.rating-card__text -->
             </div>
@@ -259,7 +265,7 @@
               <div class="rating-card__text">
                 <h3 class="rating-card__title">Very Nice a Novel&nbsp;by Mercy</h3>
                 <span class="rating-card__price">$23.00</span>
-                <button class="rating-card__button">Купить</button>
+                <button data-toggle="modal" class="rating-card__button">Купить</button>
               </div>
               <!-- /.rating-card__text -->
             </div>
@@ -272,7 +278,7 @@
               <div class="rating-card__text">
                 <h3 class="rating-card__title">Hooked : How to Build Products</h3>
                 <span class="rating-card__price">$23.00</span>
-                <button class="rating-card__button">Купить</button>
+                <button data-toggle="modal" class="rating-card__button">Купить</button>
               </div>
               <!-- /.rating-card__text -->
             </div>
@@ -538,7 +544,7 @@
         <!-- /.blog-info -->
 
         <div class="blog-list">
-          <button class="blog-list__button blog-list__button--clen">Все Блоги</button>
+          <button data-toggle="modal" class="blog-list__button blog-list__button--clen">Все Блоги</button>
           <div class="blog-list__wrapper">
             <div class="blog-list__item">
               <img class="blog-list__image" src="img/blog/blog-2.jpg" alt="blog-image">
@@ -580,12 +586,11 @@
         <h2 class="newsletter-title">Будь первым, кто узнает о&nbsp;наших акциях</h2>
 
         <div class="subscribe-wrapper">
-          <form class="subscribe-form">
-            <input class="subscribe-form__input" type="email" name="email" placeholder="Ваш Emaill">
+          <form class="subscribe-form form" action="send.php" method="POST">
+            <input class="subscribe-form__input" type="email" name="subscribe" placeholder="Ваш Emaill" required>
             <img class="subscribe-form__icon" src="img/email.svg" alt="icon: email">
-            <button class="subscribe-form__button" type="submit">Регистрация</button>
+            <button class="subscribe-form__button" value="subscription" type="submit" name="form">Регистрация</button>
           </form>
-          <div class="error error--form"></div>
         </div>
         <!-- /.subscribe-wrapper -->
       </div>
@@ -599,26 +604,27 @@
       <div class="footer-top">
         <div class="footer-logo">
           <a class="logo" href="#top">
-            <img src="img/logo.svg" alt="Logo: Ehya">
+            <img src="img/Logo.svg" alt="Logo: Ehya">
           </a>
           <div class="footer__description">
             <span class="footer__text">Создайте современный и креативный веб-сайт с crealand</span>
             <div class="footer__links">
-              <a href="https://google.com">
+              <a href="https://google.com" target="_blank">
                 <img src="img/footer/google.svg" alt="icon: google">
               </a>
-              <a href="https://twitter.com">
+              <a href="https://twitter.com" target="_blank">
                 <img src="img/footer/twitter.svg" alt="icon: twitter">
               </a>
-              <a href="https://www.instagram.com">
+              <a href="https://www.instagram.com" target="_blank">
                 <img src="img/footer/instagram.svg" alt="icon: instagram">
               </a>
-              <a href="https://www.linkedin.com">
+              <a href="https://www.linkedin.com" target="_blank">
                 <img src="img/footer/linkedin.svg" alt="icon: linkedin">
               </a>
             </div>
+            <!-- /.footer__links -->
           </div>
-          <!-- /.footer__links -->
+          <!-- /.footer__description -->
         </div>
         <!-- /.footer-logo -->
 
@@ -715,21 +721,21 @@
   </footer>
   <!-- /.footer -->
   <div class="modal">
-    <div class="popup modal__content popup--active">
+    <div class="modal__content">
       <button class="modal__close"></button>
       <h3 class="modal__title">Форма обратной связи</h3>
-      <form class="modal-form" action="thankyou.html">
-        <input class="modal-form__input" type="text" placeholder="Ваше имя*" name="name">
+      <form class="modal-form form" action="send.php" method="POST">
+        <input class="modal-form__input" required minlength="2" type="text" placeholder="Ваше имя*" name="name">
         <div class="error"></div>
-        <input id="phone" class="modal-form__input" type="tel" placeholder="Номер телефона*" name="phone"
-          minlength="18">
+        <input id="phone" class="modal-form__input" type="tel" placeholder="Номер телефона*" name="phone" required
+          minlength="17">
         <div class="error"></div>
-        <input class="modal-form__input" type="email" placeholder="Ваш Email*" name="email">
+        <input class="modal-form__input" required type="email" placeholder="Ваш Email*" name="email">
         <div class="error"></div>
         <p class="modal-form__text">
           * - обязательные для заполнения
         </p>
-        <button class="modal-form__button" type="submit">Отправить</button>
+        <button class="modal-form__button" type="submit" value="thankyou" name="form">Отправить</button>
       </form>
     </div>
     <!-- /.modal-content -->
@@ -740,8 +746,9 @@
   </a>
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 

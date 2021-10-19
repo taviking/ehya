@@ -7,19 +7,46 @@ body
 .container
   max-width: 1140px
   margin: auto
-  overflow: hidden
-img
-  max-width: 100%
-
-a
-  text-decoration: none
-
+  // overflow: hidden
+h2, h3, p
+  margin: 0
 ul
   margin: 0
   padding: 0
   list-style: none
+a
+  text-decoration: none
+  color: inherit
+  cursor: pointer
+img
+  max-width: 100%
 
 button
   cursor: pointer
   border: none
   overflow: hidden
+  outline: none
+
+.arrow
+  &-up
+    margin: 30px
+    position: fixed
+    bottom: 22px
+    right: 60px
+    width: 40px
+    height: 40px
+    z-index: 99
+    outline: none
+    background-color: transparent
+    visibility: hidden
+    opacity: 0.3
+    &--show
+      visibility: visible
+.error
+  font-weight: bold
+  font-size: 12px
+  line-height: 15px
+  color: $red
+
+  .hide
+    display: none

@@ -1,0 +1,197 @@
+.products
+  &-wrapper
+    display: flex
+    margin-bottom: 79px
+    gap: 32px
+  &-category
+    padding-top: 60px
+    border-top: 1px solid $light-grey
+    margin-bottom: 100px
+
+.recommended
+  &__title
+    margin-bottom: 30px
+    font-family: $roboto-condensed
+    font-style: normal
+    font-weight: bold
+    font-size: 32px
+    line-height: 40px
+    letter-spacing: 0.2px
+    color: $dark
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    gap: 30px
+  &-card
+    display: flex
+    align-items: center
+    width: 358px
+    padding: 11px
+    gap: 18px
+    border: 1px solid $light-grey
+    border-radius: 8px
+    &__wrapper
+      display: flex
+      justify-content: space-between
+    &__image
+      flex-shrink: 0
+      width: 160px
+      height: 238px
+      border-radius: 8px
+      overflow: hidden
+      &__text
+        margin-top: -5px
+    &__title
+      font-family: $roboto
+      font-style: normal
+      font-weight: 500
+      font-size: 22px
+      line-height: 32px
+      letter-spacing: 0.2px
+      color: $dark
+      margin-bottom: 16px
+    &__category
+      display: block
+      font-family: $open-sans
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 22px
+      color: $dark
+      margin-bottom: 24px
+    &__price
+      display: block
+      font-family: $roboto-condensed
+      font-style: normal
+      font-weight: bold
+      font-size: 20px
+      line-height: 24px
+      letter-spacing: 0.2px
+      color: $light
+      margin-bottom: 24px
+    &__button
+      margin-bottom: 4px
+      padding: 7px 20px
+      margin-right: 16px
+      font-family: $open-sans
+      font-style: normal
+      font-weight: bold
+      font-size: 17px
+      line-height: 18px
+      color: $clean
+      border-radius: 20px
+      background-color: $dark
+      border: 1px solid $dark
+      cursor: pointer
+    &__heart
+      background-color: inherit
+      font-family: inherit
+      font-size: 100%
+      line-height: 1.15
+      margin: 0
+      padding: 7px 10px 0 0
+      &-img
+        background-color: transparent
+        border: none
+        width: 22px
+        height: 22px
+        display: block
+        fill: $heart
+        &--active
+          fill: $red
+  &__link
+    width: 100%
+    margin-top: -6px
+    padding: 26px 0
+    font-family: $roboto-condensed
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    letter-spacing: 0.2px
+    text-transform: uppercase
+    text-align: center
+    color: $light
+    border: none
+    border-radius: 8px
+    background-color: rgba($light, 0.1)
+    cursor: pointer
+
+.rating
+  &__title
+    margin-bottom: 30px
+    font-family: $roboto-condensed
+    font-style: normal
+    font-weight: bold
+    font-size: 32px
+    line-height: 40px
+    letter-spacing: 0.2px
+    color: $dark
+  &-wrapper
+    justify-content: center
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+    padding: 24px
+    background-color: rgba($gray, 0.1)
+    border-radius: 8px
+    gap: 36px
+  &-card
+    display: flex
+    width: 312px
+    gap: 27px
+    &__image
+      flex-shrink: 0
+      width: 119px
+      height: 178px
+      border-radius: 6px
+      overflow: hidden
+    &__text
+      padding-top: 7px
+    &__title
+      margin-top: 2px
+      font-family: $roboto
+      font-style: normal
+      font-weight: 500
+      font-size: 22px
+      line-height: 32px
+      letter-spacing: 0.2px
+      color: $dark
+      margin-bottom: 16px
+    &__price
+      display: block
+      font-family: $roboto-condensed
+      font-style: normal
+      font-weight: bold
+      font-size: 20px
+      line-height: 24px
+      letter-spacing: 0.2px
+      color: $light
+      margin-bottom: 19px
+    &__button
+      padding: 7px 20px
+      font-family: $open-sans
+      font-style: normal
+      font-weight: bold
+      font-size: 16px
+      line-height: 22px
+      color: $clean
+      border-radius: 20px
+      background-color: $dark
+      border: none
+      border: 1px solid $dark
+      cursor: pointer
+  &__link
+    width: 100%
+    margin-top: -6px
+    padding-top: 20px
+    border-top: 1px solid $light-grey
+    font-family: $roboto-condensed
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    text-align: center
+    letter-spacing: 0.2px
+    color: $light
